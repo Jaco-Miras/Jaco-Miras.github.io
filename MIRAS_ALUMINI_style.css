@@ -1,0 +1,92 @@
+*{
+		box-sizing: border-box;
+	}
+	article{
+		position: relative;
+		padding: 10px;
+		padding-left: 220px;
+		height: 220px;
+	}
+
+	article .image{
+		position: absolute;
+		left: 10px;
+		top: 10px;
+		width: 200px;
+		height: 200px;
+		background-image: url("profile.jpeg");
+		background-size: 300px 200px;
+	}
+
+	.logo{
+		height:150px; 
+		width:150px;
+	}
+
+	.picture{
+		border-radius: 100%;
+	}
+
+	#font1{
+		color: white;
+	}
+
+	#banner{
+		position: absolute;
+		top: -100px;
+		margin: auto;
+		left: 700px;
+		bottom: 0;
+		right: 0;
+		color:white;
+		font-size: 24px;
+
+	}
+
+	article .content{
+		width: 100%;
+		position: absolute;
+	    background: #ee6e73;
+	    width: 100%;
+	}
+
+	.box{
+		position: relative;
+	}
+
+	.box .shadow > ul > li {
+		height: 30px;
+		width: 200px;
+		list-style: none;	
+	}
+
+	a {
+		text-decoration-line: none;
+		color: black;
+	}
+
+	.PosSet{
+		position: relative;
+	}
+
+	.PosSet textarea{
+		position: absolute;
+		margin: auto;
+		 left: 0;
+		 bottom:0;
+		top: 0;
+		right: 0;
+		 width: 400px; height: 324px;
+	}
+
+	input[type="submit"] {
+		position: absolute;
+		margin: auto;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 70px;
+		height: 70px;
+	}
+
